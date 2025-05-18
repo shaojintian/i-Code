@@ -6,6 +6,7 @@ import numpy.random as npr
 import copy
 from functools import partial
 from contextlib import contextmanager
+import tqdm
 
 from .common.get_model import get_model, register
 from .ema import LitEma
